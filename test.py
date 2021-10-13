@@ -16,9 +16,9 @@ print("author id: ", id, " output: ",wln_get().author_data(id))
 
 print("genre id: ", id, " output: ",wln_get().genre_data(id))
 
-print("all tags", " output: ",wln_get().enumerate_tags())
+print("all tags", " output: ",wln_utils().enumerate_tags())
 
-print("all genres", " output: ",wln_get().enumerate_genres())
+print("all genres", " output: ",wln_utils().enumerate_genres())
 
 # If not passed any other arguments other than the title-search-string, method/function will return the highest match if any
 a = wln_search().title_search("Hamachi")
