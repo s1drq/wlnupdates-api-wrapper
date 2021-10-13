@@ -70,7 +70,7 @@ class fetch_data:
         else:
             return json_data
 
-class online:
+class wln_online:
     def login(self, _username, _password, _rememberme='False'):
         return fetch_data().POSTjson({
             "mode": 'do-login', "username": _username, 'password': _password, 'remember me' : _rememberme
