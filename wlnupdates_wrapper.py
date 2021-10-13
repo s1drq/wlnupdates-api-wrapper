@@ -1,5 +1,5 @@
 '''
-SUPER SIMPLE WLNUPDATES API WRAPPER
+WLNUPDATES API WRAPPER
 by: s1drq
 
 NOTE:   I am not a programmer so this might not be the most efficient api wrapper.
