@@ -61,7 +61,7 @@ class Search:
 
         json_parsed = []
 
-        #   _series_type parameter does give accurate results.
+        #   _series_type parameter does not give accurate results.
         #   This is just a work around till it get fixed.
 
         for i in range(len(json_data)):
